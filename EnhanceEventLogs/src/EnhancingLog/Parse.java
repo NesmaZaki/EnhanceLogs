@@ -135,7 +135,7 @@ public class Parse {
             //int id = Integer.parseInt(Request);
             p.setInt(1, i);
             p.setString(3, EmpName);
-            p.setInt(2, 1);
+            p.setString(2, Request);
             p.setString(4, Request);
             p.setString(5, EventType);
             p.setTimestamp(6, Timestamp);
