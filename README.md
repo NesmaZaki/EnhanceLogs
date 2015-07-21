@@ -5,7 +5,7 @@
 To run our code first: 
 - run schema.sql using mySQL :
 	
-- Under Project\src\EnhancingLog:
+- Under EnhanceEventLogs\src\EnhancingLog:
 	- you need to establish your connection in ConnDB.java
 	- Then, run main.java :
 		- Update the parameter of parse functions with your own log file name (.xes) or (.xlsx) format 
