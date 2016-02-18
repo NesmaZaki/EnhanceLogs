@@ -1,6 +1,7 @@
 <h5>Source code associate the paper
-<h1> Enhancing Process Execution Logs for Accurate Performance Measurement
-<h5>By Nesma Mostafa , Ahmed Hany
+<h1> Analyzing and Repairing Overlapping Work Items in
+Process Logs
+<h5>By Nesma M. Zaki, Ahmed Awad, Chiara Di Francescomarino
 
 To run our code first: 
 - run schema.sql using mySQL :
