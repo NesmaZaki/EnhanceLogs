@@ -6,9 +6,9 @@ Process Logs
 To run our code first: 
 - run schema.sql using mySQL.
 	
-- Under EnhanceEventLogs\src\EnhancingLog:
+- Under RepairingOverlappingWorkItems\src\RepairLog:
 	- you need to establish your connection in ConnDB.java
-	- Then, run main.java :
+	- Then, run EnhanceLogs.java :
 		- Update the parameter of parse functions with your own log file name (.xes) or (.xlsx) format 
 			but this file must be adapted with the lifecycle mentioned in our paper.
 		- Call RepairingLogs.
