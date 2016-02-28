@@ -41,9 +41,11 @@ public class EnhanceLogs {
         // mapping event type to abstract states
         conc.mapping();
 
+		// Write in first strategy (COF(indicate close order item) or DL ( indicate Defer low priority))
         System.out.println("Enter your first strategy: ");
         BufferedReader first_strategy = new BufferedReader(new InputStreamReader(System.in));
         String firstStrategy = first_strategy.readLine();
+		// Write in first strategy (COF(indicate close order item) or SL ( indicate Suspend low priority))
         System.out.println("Enter your second strategy: ");
         BufferedReader second_strategy = new BufferedReader(new InputStreamReader(System.in));
         String secondStrategy = second_strategy.readLine();
